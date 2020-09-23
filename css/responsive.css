@@ -1,0 +1,341 @@
+@media(max-width: 767px){
+	.header-top {
+    display: block;
+	}
+	.header-top-left,
+	.header-top-right{
+		display: flex;
+		justify-content: center;
+	}
+
+	.header-top-right{
+		margin-top: 10px;
+	}
+}
+
+/*=============================
+.heder-area
+=================================*/
+
+
+/*=============================
+.menu-area
+=================================*/
+
+@media(max-width: 1000px){
+	.for-full-dvs{
+		display: none;
+	}
+}
+
+@media(min-width: 1000px){
+	.our-collapse{
+		display: none;
+	}
+	.samll-dvs-logo{
+		display: none;
+	}
+
+	.for-half-dvs{
+		display: none;
+	}
+
+}
+
+/*=============================
+banner
+=================================*/
+@media(min-width: 0px){
+	.banner,
+	.banner-two,
+	.banner-three{
+		padding-top: 300px;
+		padding-left: 50px;
+		padding-bottom: 40px;
+	}
+}
+
+@media(min-width: 480px){
+	.banner,
+	.banner-two,
+	.banner-three{
+		padding-top: 300px;
+		padding-left: 50px;
+		padding-bottom: 40px;
+	}
+}
+
+
+@media(min-width: 570px){
+	.banner,
+	.banner-two,
+	.banner-three{
+		padding-top: 400px;
+		padding-bottom: 50px;
+		padding-left: 60px;
+	}
+}
+
+@media(min-width: 768px){
+	.banner,
+	.banner-two,
+	.banner-three{
+		padding-top: 445px;
+		padding-bottom: 50px;
+		padding-left: 60px;
+	}
+}
+
+@media(min-width: 992px){
+	.banner,
+	.banner-two,
+	.banner-three{
+		padding-top: 545px;
+		padding-bottom: 85px;
+		padding-left: 80px;
+	}
+}
+
+@media(min-width: 0px){
+	.banner-area .banner-content h2{
+    	padding-bottom: 10px;
+	}
+}
+
+
+
+@media(min-width: 570px){
+	.banner-area .banner-content h2{
+		color: #fff;
+    	font-weight: 600;
+    	padding-left:0px;
+    	padding-bottom: 20px;
+	}
+}
+
+
+/*=============================
+Style Hunter + servise-double + Lifestyle-manu + left-social
+=================================*/
+@media (max-width: 991px){
+	.people {
+    margin-top: 22px;
+	}
+}
+
+@media(max-width: 768px){
+	.footer-bottom ul li a {
+   		 padding-right: 15px;
+	}
+
+	.people .people-content {
+    padding-left: 0px;
+	}
+
+	.footer-bar .footer-bar-right {
+   	 	padding-bottom: 31px;
+    	padding-left: 20px;
+	}
+
+	.footer-bar .footerbar-left p {
+		  padding-left: 20px;
+	}
+
+	.people .people-content .name, 
+	.people .people-content .time {
+    font-size: 10PX;
+	}
+
+	.bar {
+    height: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+	}
+
+	.banneeft-area h1, 
+	.our-Instagram h1, 
+	.our-Instagram-tow h1 {
+    padding-bottom: 90px;
+	}
+}
+
+@media(max-width: 510px){
+	.servise-strt .servise {
+   		 padding-top: 15px;
+   		 display: flex;
+    	justify-content: space-between;
+	}
+
+	.any {
+    margin-bottom: 20px;
+	}
+
+	.servise-strt .banner-content h2{
+   		 padding-bottom: 10px;
+	}
+
+	.servise-double .servise-content .banner-content h2 {
+    padding-bottom: 10px;
+	}
+
+	.people-img img {
+   	 	vertical-align: middle;
+    	border-style: none;
+    	padding-top: 15px;
+	}
+
+	.tmr {
+   		 margin-top: 13px;
+	}
+
+	.servise {
+    padding-top: 0px;
+	}
+
+	.servise-logo h2 {
+    	font-size: 18px;
+    	padding-right: 12px;
+	}
+
+	.servise-double .servise-content .any {
+   		 padding-bottom: 20px;
+	}
+
+	.footer {
+   	 margin-top: 40px;
+   	 padding-top: 40px;
+   	 background: #090e1d;
+	}
+
+	.pragraph {
+    padding-top: 40px;
+	}
+}
+
+
+
+@media(min-width: 0px){
+	.servise-strt .banner-item .servise-description p{
+			font-size: 16px;
+			padding-bottom: 15px;
+	}
+
+
+	.servise-double .banner-item .servise-description p{
+   			 padding-top: 0px;
+   			 font-size: 16px;
+   			 padding-bottom: 25px;
+	}
+}
+
+@media(min-width: 468px){
+	.servise-strt .banner-item .servise-description p{
+			font-size: 16px;
+			padding-bottom: 40px;
+	}
+
+}
+
+@media(min-width: 570px){
+	.servise-strt .banner-item .servise-description p{
+			background: none;
+			color: #000;
+			font-size: 16px;
+			padding-bottom: 65px;
+	}
+
+	.servise-double .banner-item .servise-description p{
+   			 padding-top: 30px;
+   			 padding-bottom: 30px;
+	}
+}
+
+
+
+@media(min-width: 768px){
+.servise-double .banner-item .servise-description p{
+   			 padding-top: 35px;
+   			 padding-bottom: 50px;
+	}
+}
+
+@media(min-width: 991px){
+.left-area-social-ggl h2, 
+.left-area-social-twtr h2, 
+.left-area-social-fb h2 {
+    padding-top: 25px;
+    font-size: 16px;
+	}
+
+	.left-area-social-ggl i,
+	.left-area-social-twtr i,
+	.left-area-social-fb i {
+    font-size: 29px;
+    padding: 10px;
+	}
+}
+
+
+@media(min-width: 1199px){
+.left-area-social-ggl h2, 
+.left-area-social-twtr h2, 
+.left-area-social-fb h2 {
+    padding-top: 25px;
+    font-size: 22px;
+	}
+}
+
+
+@media(max-width: 991px){
+	.people{
+    display: block;
+	}
+}
+
+@media(max-width: 991px){
+	.fullfooter{
+    display: none;
+	}
+}
+
+@media(min-width: 992px){
+	.our-footer{
+    display: none;
+	}
+}
+
+@media(max-width: 570px){
+	.our-footer ul li{
+    padding-right: 10px;
+	}
+}
+
+@media(min-width: 570px){
+	.ouftr{
+    margin-top: 30px;
+	}
+}
+
+@media(max-width: 792px){
+	.banneeft-area h1,
+	.our-Instagram h1,
+	.our-Instagram-tow h1 {
+    font-size: 25px;
+	}
+}
+
+@media(max-width: 510px){
+	.people .people-content {
+    padding-left: 0px;
+	}
+	.name,
+	.time{
+		font-size: 12px;
+	}
+}
+
+
+
+
+
+
